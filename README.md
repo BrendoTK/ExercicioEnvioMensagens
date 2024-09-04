@@ -2,7 +2,7 @@
 
 Para resolver o problema de envio de mensagens e a necessidade de alternar entre diferentes formas de envio sem alterar o código dos clientes, foram utilizados os seguintes padrões de projeto:
 
-## 1. Padrão Simple Factory
+# 1. Padrão Simple Factory
 
 O padrão **Simple Factory** foi utilizado na implementação da classe `MessageServiceFactory`. Este padrão permite a criação de objetos `MessageService` sem que o código cliente precise conhecer as classes concretas que implementam essa interface. A classe `MessageServiceFactory` centraliza a lógica de criação de objetos, simplificando a adição de novos tipos de serviço de mensagem no futuro.
 
